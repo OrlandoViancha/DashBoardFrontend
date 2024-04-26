@@ -1,0 +1,13 @@
+.GraphicLine{
+ width: 100%;
+ height: 100%;
+ h3{
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+ }
+ .chart{
+  height: 300px;
+ }
+ 
+}

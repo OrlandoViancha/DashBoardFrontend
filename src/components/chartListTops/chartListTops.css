@@ -1,0 +1,39 @@
+.chartListTop{
+ 
+ h3{
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+ }
+ .list{
+  
+  .listItem{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 30px;
+
+   .user{
+    display: flex;
+    gap: 20px;
+ 
+    .userTexts{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+
+     .username{
+       font-size: 14px;
+       font-weight: 500;
+     }
+    }
+    
+   }
+   .amount{
+     font-weight: 500;
+   } 
+  }
+
+ }
+
+}

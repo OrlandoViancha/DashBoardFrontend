@@ -1,0 +1,58 @@
+.home{
+ display: grid;
+ gap: 20px;
+ 
+ .box{
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #384256;
+  
+
+  .box-top{
+   display: flex;
+   margin: 5px;
+
+   .box-top_element{
+    width: 25%;
+    height: 100%;
+    margin: 5px;
+   }
+  }
+  .box-graphics{
+   margin-top:5px;
+   gap:10px;
+   display: flex;
+
+   .box-graphics_left{
+    width:50%;
+    height: 100%;
+    margin: 0px;
+
+    .box-graphics_left_element{
+     margin-top: 20px;
+    }
+   }
+
+   .box-graphics_right{
+    width: 50%;
+    margin: 0px;
+
+    .box-graphics_right_element{
+     margin-top: 20px;
+    }
+   }
+  }
+
+  .box-graphics_bottom{
+   margin-top: 2%;
+
+   .box-graphics_bottom_element{
+    margin-top: 2%;
+   }
+  }
+ }
+
+ 
+
+ 
+}
